@@ -13,6 +13,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import ProductList from './tp/store/productList';
 import FormTp from './tp/form/form';
 import LanguageSwitcher from "./tp/LanguageSwitcher/LanguageSwitcher";
+import ProductList from "./tp/store/productList";
+import Page from "./tp/LanguageSwitcher/Page";
+import {FormValidationBeginner} from "./tp/formValidation/FormValidationBeginner";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<React.StrictMode>
@@ -25,7 +28,8 @@ root.render(<React.StrictMode>
     {/* <ToggleName lastName="Amine"/> */}
     {/* <ProductList /> */}
     {/*<FormTp/>*/}
-    <LanguageSwitcher/>
+    {/*<Page/>*/}
+    <FormValidationBeginner/>
 </React.StrictMode>);
 
 // If you want to start measuring performance in your app, pass a function

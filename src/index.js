@@ -16,6 +16,8 @@ import LanguageSwitcher from "./tp/LanguageSwitcher/LanguageSwitcher";
 import ProductList from "./tp/store/productList";
 import Page from "./tp/LanguageSwitcher/Page";
 import {FormValidationBeginner} from "./tp/formValidation/FormValidationBeginner";
+import FormValidation from "./tp/formValidation/FormValidation";
+import App from './Router/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<React.StrictMode>
@@ -29,7 +31,9 @@ root.render(<React.StrictMode>
     {/* <ProductList /> */}
     {/*<FormTp/>*/}
     {/*<Page/>*/}
-    <FormValidationBeginner/>
+    {/*<FormValidationBeginner/>*/}
+    {/*<FormValidation />*/}
+    <App />
 </React.StrictMode>);
 
 // If you want to start measuring performance in your app, pass a function
